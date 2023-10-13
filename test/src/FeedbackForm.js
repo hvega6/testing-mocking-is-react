@@ -42,6 +42,9 @@ function FeedbackForm({onSubmit}) {
                           }}
                         />
                     </div>
+                    <button type='submit' disabled={isDisabled}>
+                        Submit
+                    </button>
                 </fieldset>
             </form>
         </div>
