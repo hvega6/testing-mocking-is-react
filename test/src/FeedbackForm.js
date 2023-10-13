@@ -47,3 +47,5 @@ function FeedbackForm({onSubmit}) {
         </div>
     )
 }
+
+export default FeedbackForm;
